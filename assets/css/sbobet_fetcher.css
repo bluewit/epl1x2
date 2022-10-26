@@ -1,0 +1,3508 @@
+#sbobet-fetcher{
+	background-color:#FFF;
+}
+.score table tr, .score table td, .score table th{ 
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+.TAL {
+    text-align: left !important;
+}
+.TAC {
+    text-align: center !important;
+}
+.TAR {
+    text-align: right !important;
+}
+.FL {
+    float: left !important;
+}
+.FR {
+    float: right !important;
+}
+.VAT {
+    vertical-align: top !important;
+}
+.B {
+    font-weight: 700 !important;
+}
+.FN, .FontNormal {
+    font-weight: 100 !important;
+}
+.Red {
+    color: #FF0000 !important;
+}
+.DarkRed {
+    color: #CC0000 !important;
+}
+.Orange {
+    color: #FF6600 !important;
+}
+.Blue {
+    color: #0000FF !important;
+}
+.PurpleBlue {
+    color: #6666FF !important;
+}
+.LightBlue {
+    color: #3399FF !important;
+}
+.MidBlue {
+    color: #003399 !important;
+}
+.Grey {
+    color: #666666 !important;
+}
+.FS9 {
+    font-size: 9px;
+}
+.TextLineThrough {
+    text-decoration: line-through;
+}
+.MarginAuto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.BBN {
+    border-bottom: medium none !important;
+}
+.BRN {
+    border-right: medium none !important;
+}
+.BLN {
+    border-left: medium none !important;
+}
+.Clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.MR5 {
+    margin-right: 5px;
+}
+.NoRightBorder {
+    border-right: medium none !important;
+}
+.TrOdd {
+    background-color: #FFFFFF;
+}
+.TrEven {
+    background-color: #E8EEFE;
+}
+.TrOver {
+    background: none repeat scroll 0 0 #FFFFCC;
+}
+.TrOverPointer {
+    background: none repeat scroll 0 0 #FFFFCC;
+    cursor: pointer;
+}
+.TrNoLink {
+    background-color: #FFDDBB;
+}
+.TdNoData {
+    background: none repeat scroll 0 0 #DEE9FF;
+    font-size: 12px;
+    font-weight: normal;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+.TrWaiting {
+    background: none repeat scroll 0 0 #FFDDDD;
+}
+.TrTotal {
+    background-color: #FFFFBB;
+    text-align: right;
+}
+.OrangeBtn, .BlueBtn, .WhiteBtn, .WhiteBtn span, .RefreshBtn, .RefreshBtn span, .NavBar a, .NavBar a:hover, .NavBar span, .NavItemSel a, .MPBtn {
+    background: url("../images/sbobet_fetcher/buttons.png?121217") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.NavNew-zh-cn, .NavNew, .TopQuestionnaireIcon, .TopLinks a span, li.InitDep span, .ForgetBtn, .ValidateBtn, .Lang .Sel a, .Lang .Sel a:hover, .TrailIcon, .Open .HdTitle, .Open .SubHead span, .Closed .HdTitle, .Closed .SubHead span, .IconHelp, .IconEdit, .UpArrow, .DelBtn, .AddMyMarket, .DelMyMarket, .SptMod li li, .SptMod li li.Sel, .SvcMod li, li.MoreReg, .IconMarkets, .IconMarketsGray, .IconStats, .IconStatsGray, .IconDel, .IconDelRect, .IconLC, .IconTV, .IconLCs, .IconTVs, .IconTVGrays, .OldOdds, .IconTVPink, .IconLive, .IconBSoundOn, .IconBSoundOff, .IconBStats, .IconBStatsOff, .IconBTV, .IconBTVOff, .IconBLC, .IconBLCOff, .IconBTVCOn, .IconBTVCOff, .IconBScoutOn, .IconBScoutOff, .RedCard, .OddsType, .SptMod li span.NumEvt, .IconDropDown, .IconDropDown span, a.Price4, a.Price4:hover, a.Price1, a.Price1:hover, a.Price2, a.Price2:hover, a.Sort1, a.Sort1:hover, a.Sort2, a.Sort:hover, .UserInfo .BlueBtn, .games-count div, .games-count-bottom-wrap div {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.IconLive {
+    cursor: help;
+}
+.RC {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll 0 -376px rgba(0, 0, 0, 0);
+    cursor: help;
+    display: block;
+    height: 9px;
+    position: absolute;
+    top: 6px;
+    width: 9px;
+}
+.RC2 .RC {
+    width: 18px;
+}
+.RC3 .RC {
+    width: 27px;
+}
+.RC4 .RC {
+    width: 36px;
+}
+.RC5 .RC {
+    width: 45px;
+}
+.RC6 .RC, .RC7 .RC, .RC8 .RC, .RC9 .RC, .RC10 .RC {
+    width: 19px;
+}
+.RC10 .RC {
+    width: 23px;
+}
+.RC6 .RC {
+    background-position: 0 -389px;
+}
+.RC7 .RC {
+    background-position: 0 -403px;
+}
+.RC8 .RC {
+    background-position: 0 -418px;
+}
+.RC9 .RC {
+    background-position: 0 -434px;
+}
+.RC10 .RC {
+    background-position: 0 -449px;
+}
+.RedCard {
+    background-position: -81px -72px;
+    cursor: help;
+    display: inline-block;
+    height: 12px;
+    width: 9px;
+}
+.Masthead, .LoginL, .LoginR, .LoginM, .UserLinks, .UserLinks li, .UserInfo li, .Euro, .Asia, .SptTabs ul, .SptTabs li, .SptTabs li.Sel, .SptTabs li.Sel a, .SelMarket a, .Hd, .Ft, .TimeTab, .TimeTab td.Sel {
+    background: url("../images/sbobet_fetcher/structure.png") no-repeat scroll 0 0 #00a7e6;
+}
+.IconInfo, .IconAlert, .IconFav, .IconFavSel, .FrontIconB1, .FrontIconB2, .IconFavSub, .IconFavSelSub, .LeagueInfo {
+    background: url("../images/sbobet_fetcher/acc.png?1201108") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.LiveMarket .IconMarkets, .LiveMarket .IconStats, .Live .Hd, .All .Hd, .LeftCol .Live .Hd, .Live .SelMarket a {
+    background: url("../images/sbobet_fetcher/live.png?130923") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.SportImg1, .SportImg2, .SportImg3, .SportImg4, .SportImg5, .SportImg6, .SportImg7, .SportImg8, .SportImg9, .SportImg10, .SportImg12, .SportImg13, .SportImg14, .SportImg15, .SportImg16, .SportImg17, .SportImg18, .SportImg19, .SportImg20, .SportImg21, .SportImg22, .SportImg23, .SportImg24, .SportImg25, .SportImg26, .SportImg27, .SportImg28, .SportImg29, .SportImg30, .SportImg31 {
+    background: url("../images/sbobet_fetcher/sports.png?120529") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 22px;
+    width: 22px;
+}
+.SportImg2 {
+    background-position: -22px 0;
+}
+.SportImg3 {
+    background-position: -44px 0;
+}
+.SportImg4 {
+    background-position: -66px 0;
+}
+.SportImg5 {
+    background-position: -88px 0;
+}
+.SportImg6 {
+    background-position: -110px 0;
+}
+.SportImg7 {
+    background-position: -132px 0;
+}
+.SportImg8 {
+    background-position: -154px 0;
+}
+.SportImg9 {
+    background-position: -176px 0;
+}
+.SportImg10 {
+    background-position: -198px 0;
+}
+.SportImg12 {
+    background-position: -242px 0;
+}
+.SportImg13 {
+    background-position: -264px 0;
+}
+.SportImg14 {
+    background-position: -286px 0;
+}
+.SportImg15 {
+    background-position: -308px 0;
+}
+.SportImg16 {
+    background-position: -330px 0;
+}
+.SportImg17 {
+    background-position: 0 -25px;
+}
+.SportImg18 {
+    background-position: -22px -25px;
+}
+.SportImg19 {
+    background-position: -44px -25px;
+}
+.SportImg20 {
+    background-position: -66px -25px;
+}
+.SportImg21 {
+    background-position: -88px -25px;
+}
+.SportImg22 {
+    background-position: -110px -25px;
+}
+.SportImg23 {
+    background-position: -132px -25px;
+}
+.SportImg24 {
+    background-position: -154px -25px;
+}
+.SportImg25 {
+    background-position: -176px -25px;
+}
+.SportImg26 {
+    background-position: -198px -25px;
+}
+.SportImg27 {
+    background-position: -220px -25px;
+}
+.SportImg28 {
+    background-position: -242px -25px;
+}
+.SportImg29 {
+    background-position: -264px -25px;
+}
+.SportImg30 {
+    background-position: -286px -25px;
+}
+.SportImg31 {
+    background-position: -219px 0;
+}
+.SportImgOly {
+    background: url("../images/sbobet_fetcher/olympic2012.png?120702") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    float: left;
+    height: 22px;
+    width: 22px;
+}
+.SportImgOly-en {
+    background: url("../images/sbobet_fetcher/olympic2012-en.png?120702") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    float: left;
+    height: 22px;
+    width: 118px;
+}
+.SportImgOly-zh-cn {
+    background: url("../images/sbobet_fetcher/olympic2012-zh-cn.png?120702") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    float: left;
+    height: 22px;
+    width: 102px;
+}
+.SportImgOly-zh-tw {
+    background: url("../images/sbobet_fetcher/olympic2012-zh-tw.png?120702") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    float: left;
+    height: 22px;
+    width: 109px;
+}
+.SportsImgEuro2012, .SportsImgEuro2012zh-cn, .SportsImgEuro2012ZhTw {
+    background: url("../images/sbobet_fetcher/SportImgEuro2012.png?120524") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 22px;
+    width: 89px;
+}
+.SportsImgEuro2012 {
+    background-position: left top;
+}
+.SportsImgEuro2012zh-cn {
+    background-position: 0 -44px;
+}
+.SportsImgEuro2012ZhTw {
+    background-position: 0 -22px;
+}
+.Euro2012Wrap, .OlympicsWrap {
+    height: 15px;
+}
+.OrangeBtn {
+    background-position: right -21px;
+    border: 1px solid #734531;
+    color: #FFFFFF;
+    font: 700 11px/20px Trebuchet MS;
+    padding: 0 10px 1px;
+}
+.OrangeBtn:hover {
+    color: #660000;
+}
+.BlueBtn {
+    background-position: 0 -100px;
+    border: 1px solid #667DBC;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 18px;
+    margin-right: 3px;
+    padding: 1px 5px;
+}
+.BlueBtn:hover {
+    color: #FFCC00;
+}
+.UserInfo .BlueBtn {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll -140px -785px rgba(0, 0, 0, 0) !important;
+    padding: 1px 5px 1px 17px;
+}
+.WhiteBtn {
+    background-position: right -79px;
+    color: #A23B06;
+    display: block;
+    font: 700 11px/18px Arial;
+    height: 17px;
+    margin: 1px;
+    padding-right: 6px;
+}
+.WhiteBtn span {
+    background-position: 0 -79px;
+    display: block;
+    padding-left: 6px;
+}
+.WhiteBtn:hover, .RefreshBtn:hover {
+    color: #330066;
+}
+.RefreshBtn {
+    color: #990000;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font: 700 11px/17px Arial;
+    height: 17px;
+    margin: 8px 3px 3px 0;
+    padding: 0 0 0 14px;
+    text-align: center;
+}
+.RefreshBtn span {
+    background-position: right -79px;
+    color: #990000;
+    cursor: pointer;
+    display: block;
+    font: 700 11px/17px Arial;
+    height: 17px;
+    padding: 0 5px 0 3px;
+    text-align: center;
+}
+.UserInfo .RefreshBtnS {
+    background: url("../images/sbobet_fetcher/refresh-static.png?120313") no-repeat scroll 2px 4px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin-top: 2px;
+    vertical-align: top;
+    width: 13px;
+}
+* + html .UserInfo .RefreshBtnS {
+    background: url("../images/sbobet_fetcher/refresh-static.png?120313") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    display: inline;
+    height: 13px;
+    margin: 0;
+}
+.UserInfo .RefreshBtnSA {
+    background: url("../images/sbobet_fetcher/refresh-rotate.gif?120313") no-repeat scroll 2px 4px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 16px;
+    margin-top: 2px;
+    vertical-align: top;
+    width: 13px;
+}
+* + html .UserInfo .RefreshBtnSA {
+    background: url("../images/sbobet_fetcher/refresh-rotate.gif?120313") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    display: inline;
+    height: 13px;
+    margin: 0;
+}
+.MarketHd .RefreshBtn {
+    margin: 1px 3px 0 0;
+}
+.MPBtn {
+    background-position: 0 -39px;
+    color: #243E84;
+    display: block;
+    font: 700 11px/39px Verdana;
+    height: 39px;
+    margin: 4px 0 0;
+    position: relative;
+    width: 210px;
+}
+.BtnTxt {
+    display: block;
+    margin-left: 5px;
+    text-align: center;
+    width: 170px;
+}
+.BtnNum {
+    color: #FFFFFF;
+    display: block;
+    font: 100 10px/40px Arial;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 0;
+    width: 23px;
+}
+.MPBtn:hover .BtnTxt {
+    color: #5476CF;
+}
+.OrangeBtn, .BlueBtn, .WhiteBtn, .RefreshBtn, .MPBtn, .UserLinks a, .NavBar a, .Lang ul li a, .FooterLinks a, .Trail a, .FavMod td a, .TopLinks a, .SptMod .Hd a, .SptMod li a, .SvcMod a, .SptTabs li a, .OddsTabL, .OddsTabR, .IconMarkets, .SelMarket a, .TimeTab a, .MPOption li a, .StakeTF a {
+    text-decoration: none;
+}
+.ValidateBtn, .SubHead span, .IconHelp, .IconEdit, .SptTabs li, .IconBar div, .IconStats, .IconStatsGray, .IconFav, .IconFavSel, .IconInfo, .DelAll, .IconDel, .IconDelRect, .AddMyMarket, .DelMyMarket {
+    cursor: pointer;
+}
+.NavItemSel a, .Sel a, .Sel a:hover, a.Sel, .All .AllTab, .Live .LiveTab, .IconMarketsGray, .IconStatsGray, .BetMod .Invalid a, .BetMod .Invalid a:hover {
+    cursor: default !important;
+}
+
+.Masthead {
+    height: 112px;
+    position: relative;
+}
+.Logo {
+    height: 60px;
+    left: 15px;
+    position: absolute;
+    top: 12px;
+    width: 235px;
+}
+.Logo span {
+    display: none;
+}
+.TopLinks {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.TopLinks li {
+    background: url("../images/sbobet_fetcher/buttons.png?121217") repeat-x scroll left -269px rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+}
+.TopLinks a, li.InitDep div {
+    background: url("../images/sbobet_fetcher/structure.png") no-repeat scroll -91px -477px rgba(0, 0, 0, 0);
+    display: block;
+    overflow: hidden;
+    padding: 10px 0 10px 8px;
+}
+.TopLinks a span, li.InitDep span {
+    color: #16295A;
+    font: 700 12px Trebuchet MS;
+    padding: 3px 10px 8px 23px;
+}
+a.Font span {
+    background-position: -138px -1104px;
+    padding-left: 30px;
+}
+a.Help span {
+    background-position: -138px -942px;
+    padding-left: 30px;
+}
+a.LiveChat span {
+    background-position: -135px -913px;
+    padding-left: 38px;
+}
+a.JoinNow span {
+    background-position: -142px -428px;
+}
+a.Announce span {
+    background-position: -140px -883px;
+    padding-left: 26px;
+}
+a.AnnounceNew span {
+    background-position: -142px -973px;
+    padding-left: 26px;
+}
+a.Result span {
+    background-position: -135px -853px;
+    padding-left: 38px;
+}
+.TopLinks a:hover span {
+    color: #990000;
+}
+a.Announce .Counts {
+    background-position: -140px -1039px;
+    color: #913907;
+    display: inline-block;
+    font: 100 9px/12px Trebuchet MS;
+    height: 14px;
+    left: -10px;
+    padding: 1px 3px 0 4px;
+    position: relative;
+    text-align: center;
+    top: -8px;
+    width: 20px;
+}
+li.InitDep {
+    background: url("../images/sbobet_fetcher/toplinks-bgyellow.gif?120313") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+}
+li.InitDep span {
+    background-position: -140px -457px;
+    color: #7F4B0D;
+    float: left;
+    height: 9px;
+    margin-top: -3px;
+    padding-right: 3px;
+}
+li.InitDep a {
+    background: url("../images/sbobet_fetcher/toplinks-initdep.png?121016") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #990000;
+    display: block;
+    float: left;
+    height: 20px;
+    margin: -3px 10px 0 0;
+    padding: 0 0 0 5px;
+}
+li.InitDep a b {
+    background: url("../images/sbobet_fetcher/toplinks-initdep.png?121016") no-repeat scroll right top rgba(0, 0, 0, 0);
+    display: block;
+    font: 700 11px/20px Arial;
+    padding: 0 5px 0 0;
+}
+li.InitDep a:hover {
+    color: #DD0000;
+}
+.UM {
+    background: url("../images/sbobet_fetcher/umbg.png?130819") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #990000;
+    height: 35px;
+    margin-left: 3px;
+    padding: 6px 10px 5px 80px;
+}
+.Login, .TopFunctions {
+    position: absolute;
+    right: -1px;
+    top: 36px;
+}
+.LoginL, .LoginR, .LoginM {
+    background-position: 0 -120px;
+    float: left;
+    height: 35px;
+    width: 5px;
+}
+.LoginR {
+    background-position: -678px -120px;
+    width: 8px;
+}
+.LoginM {
+    background-position: -10px -120px;
+    height: 24px;
+    padding: 11px 0 0;
+    white-space: nowrap;
+    width: auto;
+}
+.Username, .Pwd, .Validate-en, .Validate-es-es, .Validate-zh-cn, .Validate-de-de, .Validate-ru-ru, .Validate-ja-jp, .Validate-id-id, .Validate-vi-vn, .Validate-my-mm, .Validate-th-th {
+    border: 1px solid #000000;
+    color: #000000;
+    float: left;
+    font: 100 11px/18px Tahoma,sans-serif;
+    height: 18px;
+    margin: 0 1px;
+    padding: 0 2px;
+}
+.Username, .Pwd {
+    width: 96px;
+}
+.Validate-en, .Validate-es-es, .Validate-zh-cn, .Validate-ja-jp, .Validate-id-id, .Validate-vi-vn {
+    width: 52px;
+}
+.Validate-de-de {
+    width: 58px;
+}
+.Validate-ru-ru {
+    width: 88px;
+}
+.Validate-my-mm {
+    width: 88px;
+}
+.Captcha {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #96B8DE #B2D0F4 #96B8DE #96B8DE;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    height: 17px;
+    margin: 0 0 0 -1px;
+}
+.ForgetBtn {
+    background-position: -20px -94px;
+    float: left;
+    height: 20px;
+    width: 15px;
+}
+.ValidateBtn {
+    background-position: 0 -94px;
+    float: left;
+    height: 19px;
+    margin: 0 4px 0 0;
+    width: 15px;
+}
+.LoginWrap {
+    float: left;
+    position: relative;
+}
+.FormTextN {
+    color: #666666;
+    font: 100 11px/18px Tahoma,sans-serif;
+    left: 7px;
+    position: absolute;
+    top: 1px;
+    vertical-align: middle;
+}
+.FormTextF {
+    color: #B7B7B7;
+    font: 100 11px/18px Tahoma,sans-serif;
+    left: 7px;
+    position: absolute;
+    top: 1px;
+    vertical-align: middle;
+}
+.TopQuestionnaire {
+    display: inline-block;
+    float: left;
+    height: 35px;
+    margin: 0 10px 0 0;
+}
+.TopQuestionnaireIcon {
+    background-position: -140px -998px;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    width: 20px;
+}
+.TopQuestionnaireText {
+    display: inline-block;
+    height: 35px;
+    margin-top: 3px;
+    vertical-align: top;
+}
+a.TopQuestionnaireLink {
+    color: #233B7A;
+    font: 700 11px/35px Arial;
+    text-decoration: none;
+}
+a.TopQuestionnaireLink:hover {
+    color: #CC0000;
+    font: 700 11px/35px Arial;
+    text-decoration: none;
+}
+.TopFunctions ul {
+    float: left;
+    margin-top: -1px;
+    padding: 0 5px;
+}
+.TopFunctions li {
+    display: inline;
+    line-height: 23px;
+    padding: 0 7px 0 5px;
+}
+.UserLinks {
+    background-position: -540px -275px;
+}
+.UserLinks li {
+    background-position: right -252px;
+}
+.UserLinks a {
+    color: #07122F;
+}
+.UserLinks a:hover {
+    color: #CC0000;
+}
+.UserInfo {
+    color: #FFFFFF;
+}
+.UserInfo li {
+    background-position: right -300px;
+}
+.UserLinks li.Last, .UserInfo li.Last {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.Masthead {
+    z-index: 1;
+}
+.Time {
+    font-size: 10px;
+    position: absolute;
+    right: 8px;
+    top: 72px;
+}
+.Lang {
+    position: absolute;
+    right: 8px;
+    top: 85px;
+}
+.Lang li {
+    display: inline;
+    float: left;
+    height: 18px;
+    width: 78px;
+}
+.Lang li a {
+    display: block;
+    font-family: Trebuchet MS;
+    font-weight: 700;
+}
+.Euro, .Asia {
+    background-position: -840px -120px;
+    color: #FFFFFF;
+    line-height: 18px;
+    text-align: center;
+}
+.Euro {
+    background-position: -730px -120px;
+    padding-left: 5px;
+}
+.Lang ul {
+    float: left;
+}
+.Lang select {
+    margin: 0 0 0 3px;
+}
+.LangDropDown {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll 0 -1008px rgba(0, 0, 0, 0);
+    border: 1px solid #6587CB;
+    display: inline-block;
+    height: 15px;
+    margin: 0 0 0 1px;
+    padding: 1px 0 0;
+    width: 68px;
+}
+.LangDropDown span {
+    line-height: 14px;
+    margin: 0 0 0 5px;
+}
+.LangDropDown ul {
+    font: 100 11px/14px Arial;
+    margin-top: 2px;
+}
+.LangDropDown ul li {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #6587CB;
+    border-left: 1px solid #6587CB;
+    border-right: 1px solid #6587CB;
+    line-height: 18px;
+    margin: 0 0 0 -1px;
+    width: 68px;
+}
+.LangDropDown ul li a {
+    color: #000000;
+    font: 100 11px/18px Arial;
+    padding: 0 0 0 8px;
+}
+.LangDropDown ul li a:hover {
+    background-color: #EBF2FF;
+    color: #000000;
+    font: 100 11px/18px Arial;
+    padding: 0 0 0 8px;
+}
+.HighlightBanner {
+    height: 18px;
+    margin-left: -8px;
+    padding-bottom: 4px;
+    position: relative;
+    vertical-align: top;
+    width: 986px;
+}
+.HighlightBannerHover {
+    cursor: pointer;
+    height: 18px;
+    left: 0;
+    margin-left: 18px;
+    position: absolute;
+    top: 0;
+    width: 910px;
+}
+.Hd {
+    background-position: 0 -160px;
+    height: 30px;
+    width: 175px;
+}
+.HdTitle {
+    color: #FFFFFF;
+    float: left;
+    font: 700 12px/22px Trebuchet MS;
+    margin-top: 5px;
+    padding: 0 0 0 18px;
+}
+.Event .HdTitle, .League .HdTitle {
+    padding: 0 0 0 5px !important;
+}
+.Event .HdTitle span {
+    display: inline-block;
+}
+.League .HdTitle span {
+    display: inline-block;
+    float: left;
+}
+.Bd {
+    background-color: #FFFFFF;
+    background-position: -1005px 0;
+}
+.Bdc {
+    background-color: #FFF9E5;
+}
+.Ft {
+    background-position: 0 -195px;
+    font-size: 0;
+    height: 3px;
+}
+.ContentRC {
+    padding: 20px 37px;
+}
+.RCTopBanner {
+    overflow: hidden;
+}
+.RCTopBanner div {
+    background-color: #C6DDFD;
+    border: 1px solid #9CBBEE;
+    float: left;
+    height: 236px;
+    padding: 4px;
+    width: 440px;
+}
+.RCTopBanner div.RCTopBannerLeft {
+}
+.RCTopBanner div.RCTopBannerRight {
+    cursor: pointer;
+    margin-left: 20px;
+    position: relative;
+}
+.RCTopBanner div.RCTopBannerRightHover {
+    background-color: #355ABD;
+    border: 1px solid #233B7A;
+    cursor: pointer;
+    margin-left: 20px;
+    position: relative;
+}
+.RCTopBanner span.RCTopBannerRightPointer {
+    cursor: pointer;
+    display: block;
+    left: 4px;
+    position: absolute;
+    top: 4px;
+}
+.RCTabWrap-en, .RCTabWrap-zh-cn, .RCTabWrap-ja-jp, .RCTabWrap-ru-ru {
+    height: 160px;
+    margin-top: 20px;
+}
+.RCTabWrap-en div {
+    background: url("../images/sbobet_fetcher/rc-banner.en.png?120720") no-repeat scroll 0 0 #C6DDFD;
+    border: 1px solid #9CBBEE;
+    cursor: pointer;
+    float: left;
+    height: 133px;
+    padding: 4px;
+    width: 289px;
+}
+.RCTabWrap-zh-cn div {
+    background: url("../images/sbobet_fetcher/rc-banner.zh-cn.png?120720") no-repeat scroll 0 0 #C6DDFD;
+    border: 1px solid #9CBBEE;
+    cursor: pointer;
+    float: left;
+    height: 133px;
+    padding: 4px;
+    width: 289px;
+}
+.RCTabWrap-ja-jp div {
+    background: url("../images/sbobet_fetcher/rc-banner.ja-jp.png?121016") no-repeat scroll 0 0 #C6DDFD;
+    border: 1px solid #9CBBEE;
+    cursor: pointer;
+    float: left;
+    height: 133px;
+    padding: 4px;
+    width: 289px;
+}
+.RCTabWrap-ru-ru div {
+    background: url("../images/sbobet_fetcher/rc-banner.ru-ru.png?130308") no-repeat scroll 0 0 #C6DDFD;
+    border: 1px solid #9CBBEE;
+    cursor: pointer;
+    float: left;
+    height: 133px;
+    padding: 4px;
+    width: 289px;
+}
+div.RCTabLeft {
+    background-position: -10px 4px;
+}
+div.RCTabMiddle {
+    background-position: -322px 4px;
+    margin-left: 12px;
+}
+div.RCTabRight {
+    background-position: -634px 4px;
+    margin-left: 12px;
+}
+div.RCTabLeftHover {
+    background-color: #355ABD;
+    background-position: -10px 4px;
+    border: 1px solid #233B7A;
+}
+div.RCTabMiddleHover {
+    background-color: #355ABD;
+    background-position: -322px 4px;
+    border: 1px solid #233B7A;
+    margin-left: 12px;
+}
+div.RCTabRightHover {
+    background-color: #355ABD;
+    background-position: -634px 4px;
+    border: 1px solid #233B7A;
+    margin-left: 12px;
+}
+div.Selected {
+    border-bottom: medium none;
+    height: 152px;
+}
+.RCTabContentWrap {
+    background-color: #C6DDFD;
+    border: 1px solid #9CBBEE;
+    height: 221px;
+    padding: 4px;
+}
+.RCTabContentBaccarat, .RCTabContentRoulette, .RCTabContentSicbo {
+    clear: both;
+    height: 220px;
+}
+.SideImg-en {
+    background: url("../images/sbobet_fetcher/rc-tab-side-img.en.png?121015") no-repeat scroll -12px -12px #C6DDFD;
+    border: 1px solid #9CBBEE;
+    float: left;
+    height: 219px;
+    margin-right: 10px;
+    width: 397px;
+}
+.SideImg-zh-cn {
+    background: url("../images/sbobet_fetcher/rc-tab-side-img.zh-cn.png?121015") no-repeat scroll -12px -12px #C6DDFD;
+    border: 1px solid #9CBBEE;
+    float: left;
+    height: 219px;
+    margin-right: 10px;
+    width: 397px;
+}
+.SideImg-ja-jp {
+    background: url("../images/sbobet_fetcher/rc-tab-side-img.en.png?121015") no-repeat scroll -12px -12px #C6DDFD;
+    border: 1px solid #9CBBEE;
+    float: left;
+    height: 219px;
+    margin-right: 10px;
+    width: 397px;
+}
+.SideText {
+    font: 100 12px/18px Arial,Tahoma,Geneva,sans-serif;
+    padding: 10px;
+}
+.SideText p {
+    margin-top: 10px;
+}
+.BaccaratSideImg {
+}
+.RouletteSideImg {
+    background-position: -12px -262px;
+}
+.SicboSideImg {
+    background-position: -12px -510px;
+}
+.MidCol .Hd {
+    background-color: #334E9A;
+    background-position: 0 -550px;
+    height: auto;
+    overflow: auto;
+    width: auto;
+}
+.MidCol .Bd {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 0 none;
+}
+.MidCol .Ft {
+    display: none;
+}
+.Live .Hd {
+    background-color: #FFFFFF;
+    background-position: 0 4px;
+}
+.RightCol .Hd {
+    background-position: -775px -160px;
+    width: 220px;
+}
+.RightCol .Bd {
+    background-position: -1190px 0;
+    padding: 5px;
+    width: 210px;
+}
+.RightCol .Ft {
+    background-position: -775px -195px;
+}
+.MarketBd {
+}
+.Open .HdTitle {
+    background-position: 8px -249px;
+}
+.Open .SubHead span {
+    background-position: 0 -253px;
+    line-height: 15px;
+    padding-left: 10px;
+}
+.Open .MarketBd, .Closed .Bd, .Closed .Ft, .live .Open .MarketBd {
+    display: block;
+}
+.Closed .Hd {
+    height: 28px;
+}
+.Closed .HdTitle {
+    background-position: 9px -221px;
+}
+.Closed .SubHead span {
+    background-position: 0 -225px;
+    line-height: 15px;
+    padding-left: 10px;
+}
+.Closed .MarketHd {
+    border-bottom: 1px solid #EEEEEE;
+}
+.Closed .MarketBd, .Closed .Bd, .Closed .Ft, .live .Closed .MarketBd {
+    display: none;
+}
+.Footeren, .Footerde-de, .Footeres-es, .Footerru-ru, .Footerzh-cn, .Footerja-jp, .Footermy-mm, .Footerth-th, .Footerid-id, .Footervi-vn {
+    background: url("../images/sbobet_fetcher/footer-en.png?131007") no-repeat scroll 5px 10px rgba(0, 0, 0, 0);
+    padding: 15px 0 0;
+    text-align: center;
+}
+.FooterLinks {
+    margin: 0 auto;
+    width: 975px;
+}
+.FooterLinks li {
+    display: inline;
+}
+.FooterLinks a {
+    color: #1A499D;
+    padding: 0 20px;
+}
+.ThirdParty {
+    height: 70px;
+    position: relative;
+}
+.CopyrightMsg {
+    color: #848484;
+    font: 700 9px Tahoma,sans-serif;
+    width: 975px;
+}
+.ProudPartners {
+    color: #848484;
+    font: 100 10px Tahoma,sans-serif;
+    margin-left: 4px;
+    padding-top: 10px;
+    width: 975px;
+}
+.Payment, .Misc, .Partners {
+    left: 20px;
+    position: absolute;
+    top: 18px;
+}
+.Misc {
+    left: 635px;
+    top: 13px;
+}
+.Partners {
+    left: 385px;
+    top: 10px;
+}
+.Payment li, .Misc li, .Partners li {
+    display: inline;
+}
+.Visa, .Mastercard, .Moneybookers, .Neteller, .Entropay, .Netbanx, .Envoy, .ByMoneybookers {
+    float: left;
+    height: 22px;
+    margin: 0 0 0 5px;
+    width: 38px;
+}
+.Visa {
+    width: 37px;
+}
+.Mastercard {
+    width: 20px;
+}
+.Moneybookers {
+    width: 31px;
+}
+.Neteller {
+    width: 58px;
+}
+.Entropay {
+    width: 18px;
+}
+.Netbanx {
+    width: 65px;
+}
+.Envoy {
+    width: 41px;
+}
+.ByMoneybookers {
+    width: 24px;
+}
+.GT, .Gamcare, .Above18, .Verisign, .RGA {
+    float: left;
+    height: 29px;
+    margin: 0 6px 0 0;
+    width: 29px;
+}
+.WHUFC, .HCFC, .NCFC, .SFC, .SCAFC {
+    float: left;
+    height: 38px;
+    margin: 0 5px 0 2px;
+    width: 40px;
+}
+.SFC {
+    width: 37px;
+}
+.GT {
+    width: 32px;
+}
+.NCFC {
+    margin-left: 3px;
+    width: 37px;
+}
+.Gamcare, .Above18 {
+    width: 28px;
+}
+.Verisign {
+    width: 56px;
+}
+.RGA {
+    width: 71px;
+}
+.EGR {
+    height: 60px;
+    left: 263px;
+    position: absolute;
+    top: -15px;
+    width: 61px;
+}
+.FConer {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll left 20px rgba(0, 0, 0, 0);
+    font-size: 0;
+    height: 5px;
+    padding-top: 20px;
+}
+.LFlinks {
+    background: url("../images/sbobet_fetcher/footerbg.gif?120313") repeat-y scroll -3px top rgba(0, 0, 0, 0);
+    border-left: 1px solid #728CC0;
+    border-right: 1px solid #728CC0;
+    height: 255px;
+    padding: 10px 0 10px 4px;
+    width: 979px;
+}
+.FLinksLH {
+    display: inline;
+    float: left;
+    height: 99px;
+    margin: 0 6px 1px;
+    text-align: left;
+    width: 183px;
+}
+.FLinksLHB {
+    display: inline;
+    float: left;
+    height: 111px;
+    margin: 0 6px 1px;
+    padding-top: 50px;
+    text-align: left;
+    width: 183px;
+}
+.FLinksLH li, .FLinksLHB li {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -743px -64px rgba(0, 0, 0, 0);
+    color: #666666;
+    padding-left: 20px;
+}
+.FLinksLH li a, .FLinksLHB li a {
+    color: #666666;
+    text-decoration: none;
+}
+.FLinksLH li a:hover, .FLinksLHB li a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.FLinksLast {
+    display: inline;
+    float: left;
+    height: 99px;
+    margin: 0 6px 1px;
+    text-align: left;
+    width: 183px;
+}
+.FLinksLastB {
+    display: inline;
+    float: left;
+    height: 89px;
+    margin: 50px 6px 1px;
+    text-align: left;
+    width: 183px;
+}
+.FLinksLast li, .FLinksLastB li {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -743px -64px rgba(0, 0, 0, 0);
+    color: #666666;
+    padding-left: 20px;
+}
+.FLinksLast li a, .FLinksLastB li a {
+    color: #666666;
+    text-decoration: none;
+}
+.FLinksLast li a:hover, .FLinksLastB li a:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.FLinksLHead {
+    border-bottom: 1px dotted #46499D;
+    color: #46499D;
+    font: 700 11px/16px Trebuchet MS;
+    height: 16px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+.FLinksL, .FlinksR {
+    display: none !important;
+}
+@media not all {
+    .FLinksL, .FlinksR {
+        display: none !important;
+    }
+}
+.FSportIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll 1px -29px rgba(0, 0, 0, 0);
+}
+.FCasinoIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -184px -28px rgba(0, 0, 0, 0);
+}
+.FRaceIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -372px -29px rgba(0, 0, 0, 0);
+}
+.FMobileIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -556px -29px rgba(0, 0, 0, 0);
+}
+.FAboutIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -741px -29px rgba(0, 0, 0, 0);
+}
+.FHelpIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -929px -29px rgba(0, 0, 0, 0);
+}
+.FRulesIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll 1px -63px rgba(0, 0, 0, 0);
+}
+.FLeaguesIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -185px -63px rgba(0, 0, 0, 0);
+}
+.FLearnIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -371px -64px rgba(0, 0, 0, 0);
+}
+.FNewsIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -558px -63px rgba(0, 0, 0, 0);
+}
+.FGameRulesIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll 1px -95px rgba(0, 0, 0, 0);
+}
+.FGameTutsIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -373px -97px rgba(0, 0, 0, 0);
+}
+.FGamesIcon {
+    background: url("../images/sbobet_fetcher/footerconer.png?121122") no-repeat scroll -186px -97px rgba(0, 0, 0, 0);
+}
+.FNewGamesIcon {
+    background: url("../images/sbobet_fetcher/footergame.png?121122") no-repeat scroll 1px -29px rgba(0, 0, 0, 0);
+}
+.FKenoIcon {
+    background: url("../images/sbobet_fetcher/footergame.png?121122") no-repeat scroll -184px -28px rgba(0, 0, 0, 0);
+}
+.FScratchcardsIcon {
+    background: url("../images/sbobet_fetcher/footergame.png?121122") no-repeat scroll -372px -29px rgba(0, 0, 0, 0);
+}
+.FHiLoIcon {
+    background: url("../images/sbobet_fetcher/footergame.png?121122") no-repeat scroll -556px -29px rgba(0, 0, 0, 0);
+}
+.FVSportsIcon {
+    background: url("../images/sbobet_fetcher/footergame.png?121122") no-repeat scroll -741px -29px rgba(0, 0, 0, 0);
+}
+.Trail, .TrailH {
+    padding: 4px 0 2px;
+}
+.Trail a {
+    color: #46499D;
+    font: 700 12px Arial;
+    text-decoration: underline;
+}
+a.TrailH {
+    text-decoration: none;
+}
+.Trail a:hover {
+    color: #C99D13;
+    text-decoration: underline;
+}
+.TrailIcon {
+    background-position: -110px -90px;
+    display: inline-block;
+    font-size: 12px;
+    height: 15px;
+    width: 5px;
+}
+.TrailSymbol {
+    color: #5996DB;
+    font-weight: bold;
+    vertical-align: top;
+}
+.Panel {
+    margin: 0 0 2px;
+}
+.SptMod .Bd, .FavMod .Bd, .SvcMod .Bd {
+    padding: 1px 5px 5px;
+}
+.SptMod .Hd a {
+    display: block;
+    float: left;
+    text-align: center;
+}
+.All .Hd {
+    background-position: -189px -120px;
+}
+.LeftCol .Live .Hd {
+    background-position: 0 -120px;
+}
+.AllTab {
+    color: #FFFFFF;
+    margin-right: 7px;
+}
+.LiveTab {
+    color: #993300;
+}
+.All .LiveTab:hover {
+    color: #EE3300;
+}
+.Live .AllTab:hover {
+    color: #B9DCFF;
+}
+.All .LiveTab, .Live .AllTab {
+    font-size: 10px;
+}
+.All .AllTab {
+    width: 76px;
+}
+.All .LiveTab {
+    width: 70px;
+}
+.Live .AllTab {
+    margin-left: -2px;
+    width: 65px;
+}
+.Live .LiveTab {
+    width: 83px;
+}
+.SptMod .Bd {
+    background-color: #E7EEFB;
+}
+.SptMod p {
+    background: none repeat scroll 0 0 #FFE7E2;
+    border: 1px solid #F9D6CF;
+    color: #666666;
+    margin: 10px 5px;
+    padding: 5px;
+    text-align: center;
+}
+.SptMod .Sel a {
+    cursor: pointer !important;
+}
+.SptMod ul {
+    margin: 0 0 0 -1px;
+    padding: 3px 0;
+}
+.SptMod li {
+    border-bottom: 1px solid #CEDDF7;
+}
+.SptMod li a {
+    color: #000000;
+    display: block;
+    font-weight: 700;
+    padding: 5px 25px;
+    position: relative;
+}
+.SptMod li a:hover {
+    color: #990000;
+}
+.SptMod li span {
+    left: 0;
+    margin: 0 4px 0 1px;
+    position: absolute;
+    top: 1px;
+}
+.SptMod li span.NumEvt {
+    background-position: -117px -91px;
+    color: #555555;
+    font: 100 9px/14px Arial;
+    height: 14px;
+    left: auto;
+    margin: 0;
+    right: 0;
+    text-align: center;
+    top: 5px;
+    width: 23px;
+}
+.SptMod ul ul {
+    background-color: #D0E0FE;
+    border: 1px solid #B5CEFD;
+    margin-left: 1px;
+}
+.SptMod li li, .SptMod li li a {
+    color: #133E76;
+    font-weight: 100;
+    padding: 0 0 4px;
+}
+.SptMod li li {
+    background-position: -168px -84px;
+    padding: 0 0 0 10px;
+}
+.SptMod li li a {
+    line-height: 14px;
+}
+.SptMod li li.Sel {
+    background-position: -169px -124px;
+}
+.SptMod li li.Sel ul {
+    background: none repeat scroll 0 0 #ADCAFF;
+    margin-left: -10px;
+}
+.SptMod li li li {
+    background-position: -175px -4px;
+    border-bottom: 1px dotted #888888 !important;
+    padding: 2px 0 0 9px;
+}
+.SptMod li li li.Last, .SptMod li li li:last-child {
+    border: 0 none !important;
+}
+.SptMod li li li.Sel {
+    background-position: -175px -4px;
+}
+.SptMod li li li.Sel a {
+    color: #990000;
+}
+li.SptSel {
+    border-bottom: medium none;
+}
+.SptMod li.MoreReg {
+    background-position: 2px -315px;
+}
+.SptMod li.MoreReg a {
+    font-weight: 700;
+}
+.MoreRegHide li.More {
+    display: none;
+}
+.MoreRegHide li.MoreReg {
+    background-position: 2px -285px;
+}
+.LeftCol .Live .Bd {
+    background-color: #FFF1EE;
+}
+.LeftCol .Live li {
+    border-bottom: 1px solid #EECEC7;
+}
+.LeftCol .Live li li, .LeftCol .Live li li li, .LeftCol li.SptSel {
+    border: 0 none;
+}
+.LeftCol .Live ul ul {
+    background-color: #F4E2DE;
+    border: 1px solid #EECEC7;
+}
+.LeftCol .Live ul ul ul {
+    background-color: #EECEC7;
+}
+.LeftCol .Live li span.NumEvt {
+    background-position: -141px -91px;
+}
+.Euro2012List ul li.Sel {
+    background-color: #ADCAFF;
+    background-position: -175px -4px;
+}
+.Live .Euro2012List ul li.Sel {
+    background-color: #EECEC7;
+    background-position: -175px -4px;
+}
+.Euro2012List ul li {
+    background-position: -175px -4px;
+}
+.Euro2012List ul {
+    padding: 0;
+}
+.FavMod td a {
+    color: #000000;
+}
+.FavMod table tr:hover {
+    background-color: #F6E08F;
+}
+.FavMod td a:hover {
+    color: #FF0000;
+}
+.FavMod span {
+    margin: 0 2px;
+}
+.FavMod td {
+    border-bottom: 1px dotted #AAAAAA;
+    padding: 2px 0;
+    vertical-align: middle;
+}
+.IconHelp, .IconEdit {
+    background-position: -85px -95px;
+    height: 14px;
+    width: 14px;
+}
+.IconEdit {
+    background-position: -65px -95px;
+}
+.UpArrow, .DelBtn {
+    background-position: -98px -115px;
+    display: block;
+    float: right;
+    height: 16px;
+    width: 11px;
+}
+.DelBtn {
+    background-position: -83px -115px;
+}
+.UpArrow:hover, .DelBtn:hover {
+    background-color: #D3E0FF;
+}
+.FavMod p {
+    margin-top: 5px;
+}
+.SvcMod .Bd {
+    background-color: #D3E0FF;
+}
+.SvcMod a {
+    color: #1D3A60;
+    font-weight: 700;
+}
+.SvcMod a:hover {
+    color: #990000;
+}
+.SvcMod li {
+    background-position: -165px -242px;
+    border-bottom: 1px solid #A7C1FF;
+    border-top: 1px solid #FFFFFF;
+    padding: 1px 0 1px 20px;
+}
+.SvcMod .Ft {
+    background-color: #D3E0FF;
+}
+.EventsMod .Bd {
+    border: 0 none;
+}
+.SubHead {
+    color: #FFFFFF;
+    float: left;
+    font: 700 12px Arial;
+    padding: 3px 0 2px 10px;
+}
+.SubHeadT {
+    float: left;
+    font: 11px/15px Arial;
+    padding: 3px 0 2px 2px;
+}
+.SpecialsSub .SubHeadT {
+    float: left;
+    font: 11px/15px Arial;
+    padding: 3px 0 2px 20px;
+}
+.LiveMarket .SubHeadT {
+    color: #782803;
+}
+.NonLiveMarket .SubHeadT {
+    color: #383564;
+}
+.SubHead span {
+    float: left;
+}
+.SptTabs {
+    height: 31px !important;
+    position: relative;
+}
+.SptTabs ul {
+    background-position: 0 -201px;
+    height: 25px;
+    margin: 5px 1px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.SptTabs li {
+    background-position: right -219px;
+    float: left;
+    padding: 0 3px 0 0;
+}
+.SptTabs li a {
+    color: #000000;
+    display: block;
+    float: left;
+    line-height: 25px;
+    padding: 0 2px;
+}
+.SptTabs li a span {
+    margin-top: 2px;
+}
+.SptTabs li.Last {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.SptTabs li.Sel {
+    background-position: -509px -201px;
+    border-right: 1px solid #8EADEF;
+}
+.SptTabs li.Sel a {
+    background-position: center -233px;
+}
+td.Icons {
+    padding-top: 3px;
+    width: 38px;
+}
+div.Icons {
+    float: right;
+    width: auto;
+}
+.Hd .Icons {
+    margin: 9px 5px 0;
+}
+.Icons div, .Icons a {
+    float: left;
+}
+.Hd .Icons select {
+    height: 15px;
+    line-height: 11px;
+    margin: 0 3px;
+}
+.LeagueInfo {
+    background-position: -629px -387px;
+    cursor: help;
+    float: left;
+    height: 18px;
+    padding-left: 5px;
+    width: 12px;
+}
+td.DateTime, th.DateTime {
+    border-bottom: 1px solid #A7BDEF;
+    font: 100 9px/10px Tahoma,sans-serif;
+    width: 12%;
+  min-width:45px; 
+}
+th.DateTime {
+    border: 0 none;
+}
+.DateTimeDiv {
+    height: 24px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+.FrontIconS {
+    height: 24px;
+    position: relative;
+    top: 0;
+    vertical-align: middle;
+    width: 1%;
+}
+.FrontIconS div {
+    position: absolute;
+}
+.IconLCs, .IconTVs, .IconTVGrays, .IconTVPink, .IconLive {
+    background-position: -51px -51px;
+    display: block;
+    height: 10px;
+    position: relative;
+    top: 1px;
+    width: 10px;
+}
+.IconTVs {
+    background-position: -66px -50px;
+}
+.IconTVGrays {
+    background-position: -66px -62px;
+}
+.IconTVPink {
+    background-position: -66px -73px;
+    height: 10px;
+    margin-top: 6px;
+}
+.IconLive {
+    background-position: 2px -849px;
+    top: 8px;
+}
+.FrontIconS1 .IconLCs, .FrontIconS1 .IconTVs, .FrontIconS1 .IconTVGrays {
+    margin: 3px 0 0;
+}
+.DateTimeTxt {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 3px;
+    width: 99%;
+    padding-top: 0px;
+}
+.DateTimeTxt span{
+	color:#000 !important;
+}
+.FrontIconB1, .FrontIconB2 {
+    background-position: -495px -392px;
+    height: 26px;
+    left: -32px;
+    position: absolute;
+    top: 1px;
+    width: 28px;
+}
+.FrontIconB2 {
+    background-position: -527px -392px;
+    left: -50px;
+    width: 48px;
+}
+.IconLC, .IconTV {
+    background-position: -104px -48px;
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 5px 0 0;
+    width: 13px;
+}
+.IconLC {
+    background-position: -85px -51px;
+}
+.FrontIconB1 .IconLC, .FrontIconB1 .IconTV, .FrontIconB2 .IconLC, .FrontIconB2 .IconTV {
+    margin: 5px 0 0 5px;
+}
+td.Fav {
+    border-bottom: 1px solid #A7BDEF;
+    width: 12px;
+}
+.LiveMarket td.DateTime, .LiveMarket td.Fav {
+    border-color: #D59080;
+}
+.NonLiveMarket td.DateTime, .NonLiveMarket td.Fav {
+    border-color: #A7BDEF;
+}
+.IconMarkets, .IconMarketsGray {
+    background-position: 0 -46px;
+    color: #466AB4;
+    font-weight: 700;
+    height: 19px;
+    line-height: 19px;
+    margin: 1px;
+    padding: 0 1px 0 0;
+    text-align: center;
+    width: 16px;
+}
+.IconMarketsGray {
+    background-position: -122px -46px;
+    color: #999999;
+}
+.IconStats, .IconStatsGray {
+    background-position: -28px -46px;
+    height: 19px;
+    margin: 1px;
+    width: 16px;
+}
+.IconStatsGray {
+    background-position: -150px -46px;
+}
+.LiveMarket .IconMarkets {
+    background-position: 0 -41px;
+    color: #A95840;
+}
+.LiveMarket .IconStats {
+    background-position: -34px -40px;
+}
+.NonLiveMarket .IconMarkets {
+    background-position: 0 -46px;
+    color: #466AB4;
+}
+.NonLiveMarket .IconStats {
+    background-position: -28px -46px;
+}
+.IconFav, .IconFavSel {
+    background-position: -609px -385px;
+    float: left;
+    height: 18px;
+    width: 12px;
+}
+.IconFavSel {
+    background-position: -583px -385px;
+}
+.MarketLea .IconFav, .MarketLea .IconFavSel {
+    background-position: -609px -388px;
+    height: 15px;
+    margin-left: 7px;
+    width: 12px;
+}
+.MarketLea .IconFavSel {
+    background-position: -583px -388px;
+}
+.TimeTab {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-position: 0 -302px;
+    border-color: -moz-use-text-color #131F43;
+    border-image: none;
+    border-left: 1px solid #131F43;
+    border-right: 1px solid #131F43;
+    border-style: none solid;
+    border-width: 0 1px;
+    height: 39px;
+    margin-bottom: 5px;
+    width: 580px;
+}
+.TimeTab td {
+    padding: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 12.5%;
+}
+.TimeTab a {
+    color: #C0D8FC;
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+    width: 12.5%;
+}
+.TimeTab a:hover {
+    color: #FFCC00;
+}
+.TimeTab td.Sel {
+    background-position: 0 -261px !important;
+}
+.TimeTab td.Sel a {
+    color: #000000;
+}
+.SelMarket, .TimeTab {
+    clear: both;
+}
+.SelMarket a {
+    background-position: -77px -261px;
+    border: 1px solid #9CB8F7;
+    color: #203974;
+    display: inline-block;
+    float: left;
+    font: 700 11px/38px Tahoma,sans-serif;
+    height: 38px;
+    margin: 0 2px 5px 0;
+    text-align: center;
+    width: 141px;
+}
+.SelMarket a:hover {
+    color: #627FBF;
+}
+.SelMarket a.Sel {
+    background-position: -261px -261px;
+    border-color: #36519D;
+    color: #FFFFFF;
+}
+.SelMarket .Last, .SelMarket a:last-child {
+    margin-right: 0;
+    width: 143px;
+}
+.Live .SelMarket a {
+    background-position: -56px -41px;
+    border-color: #EEBAA3;
+    color: #330000;
+}
+.Live .SelMarket a:hover {
+    color: #CC0000;
+}
+.Live .SelMarket a.Sel {
+    background-position: -231px -41px;
+    color: #FFFFFF;
+}
+.SelMarketT {
+    border-color: #9A3C26;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.SelMarketT td {
+    width: 33%;
+}
+.MarketHd {
+    background: none repeat scroll 0 0 #484040;
+    cursor: pointer;
+    height: 20px;
+}
+.MarketLea, .SpecialsSub {
+    background: none repeat scroll 0 0 #2b70c6;
+    height: 20px;
+    color: #ffffff;
+}
+.MarketT thead td {
+    background: none repeat scroll 0 0 #EAEAEA;
+    border-right: 2px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    color: #496AB2;
+    font-weight: 700;
+    padding: 3px;
+    text-align: center;
+}
+.MarketT th {
+    background: none repeat scroll 0 0 #EAEAEA;
+    border-top: 3px solid #FFFFFF;
+    color: #000000;
+}
+.MarketT tbody th {
+    background: none repeat scroll 0 0 #EAEAEA;
+    border-top: 3px solid #FFFFFF;
+    color: #333333;
+    text-align: left;
+}
+.EventNameOuter {
+    display: table;
+    height: 28px;
+    width: 505px;
+}
+.EventNameMiddle {
+    display: table-cell;
+    padding: 0 0 0 5px;
+    vertical-align: middle;
+}
+span.EventName {
+    line-height: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+.FloatEventNameOuter {
+    display: table;
+    float: left;
+    height: 28px;
+    text-align: left;
+    width: 460px;
+}
+.FloatEventNameOuter .EventNameMiddle {
+    display: table-cell;
+    padding: 0 0 0 5px;
+    vertical-align: middle;
+}
+.FloatEventNameOuter span.EventName {
+    line-height: 12px;
+    vertical-align: middle;
+}
+span.EventScore {
+    color: #0000FD;
+}
+.SubEventNameH, .SubEventNameVS, .SubEventNameA {
+    margin: 5px 0;
+}
+.SubEventNameH {
+    float: left;
+    text-align: right;
+    width: 255px;
+}
+.SubEventNameA {
+    float: left;
+    text-align: left;
+    width: 254px;
+}
+.SubEventNameVS {
+    float: left;
+    text-align: center;
+    width: 66px;
+}
+.HdTitle .IconFav, .HdTitle .IconFavSel {
+    margin: -2px 3px 0 0;
+}
+.LiveMarket .MarketHd {
+    background: none repeat scroll 0 0 #A95840;
+}
+.LiveMarket .MarketLea, .LiveMarket .SpecialsSub {
+    background: none repeat scroll 0 0 #E7BAB1;
+}
+.NonLiveMarket .MarketHd {
+    background: none repeat scroll 0 0 #627FBF;
+}
+.NonLiveMarket .MarketLea {
+    background: none repeat scroll 0 0 #B2D1FF;
+}
+.Live thead th {
+    background: none repeat scroll 0 0 #D17F66 !important;
+}
+.AddMyMarket, .DelMyMarket {
+    background-position: 0 -117px;
+    float: left;
+    height: 15px;
+    margin-left: 3px;
+    width: 15px;
+}
+.DelMyMarket {
+    background-position: -15px -117px;
+}
+.Msg {
+    background: none repeat scroll 0 0 #EEEEEE;
+    clear: both;
+    color: #555555;
+    line-height: 40px;
+    margin: 5px 0;
+    text-align: center;
+}
+.EventInfo {
+    background: none repeat scroll 0 0 #E3E3E3;
+    height: 20px;
+}
+.EventTime {
+    float: left;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.Event .TeamNames {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 540px;
+}
+.MPOption {
+    line-height: 18px;
+}
+.MPOption li {
+    display: inline-block;
+    margin-right: 3px;
+    margin-top: 1px;
+    padding: 1px 0;
+}
+.MPOption li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EBF1FF;
+    border-color: #FFFFFF #81AAE7 #81AAE7 #FFFFFF;
+    border-image: none;
+    border-right: 1px solid #81AAE7;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    padding: 1px 5px;
+}
+.MPOption li a:hover {
+    background: none repeat scroll 0 0 #28438E;
+    color: #FFFFFF;
+}
+.MPOption li.Sel a, .MPOption li.Sel a:hover {
+    background: none repeat scroll 0 0 #627FBF;
+    border-color: #294677 #FFFFFF #FFFFFF #294677;
+    border-left: 1px solid #294677;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+}
+.MPOption th {
+    text-align: right;
+    white-space: nowrap;
+}
+.MPOption th, .MPOption td {
+    padding: 2px 4px;
+}
+.MPLeagueFilter {
+    background-position: -495px -270px;
+    color: #3D58A2;
+    line-height: 18px;
+}
+.MPLeague table {
+    width: 100%;
+}
+.MPLeague td {
+    padding-bottom: 5px;
+    width: 50%;
+}
+.MPLeague td input {
+    float: left;
+}
+.MPLeague td label {
+    display: block;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+.MarketT table {
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.MarketT table.Odds3Cols {
+    border-collapse: separate;
+}
+.MarketT td {
+    vertical-align: top;
+}
+.OddsTabL, .OddsTabR {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #FFFFFF #A7BDEF #A7BDEF #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    display: block;
+    margin: 3px 3px 0 0;
+    position: relative;
+}
+.OddsTabR {
+    margin: 3px 0 0;
+}
+.OddsTabL:hover, .OddsTabR:hover, .OddsSel {
+    background: none repeat scroll 0 0 #28438E;
+    color: #FFFFFF !important;
+}
+.OddsTabL:hover span, .OddsTabR:hover span, .OddsSel span{
+    color: #FFFFFF !important;
+}
+.OddsL, .OddsM, .OddsR {
+    display: block;
+}
+.OddsClosed span.OddsTabL, .OddsClosed span.OddsTabR {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #FFFFFF #CCCCCC #CCCCCC #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+}
+.OddsClosed td.DateTime, .OddsClosed td.Fav {
+    border-bottom: 1px solid #CCCCCC;
+}
+.OddsClosed span.OddsTabL:hover, .OddsClosed span.OddsTabR:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.OddsM {
+    color: #4466AA;
+    padding: 3px 0;
+    position: absolute;
+    right: 40px;
+    text-align: right;
+    top: 0;
+    width: 34px;
+}
+.OddsR {
+    font-weight: 700;
+    margin: 2px 2px 0 0;
+    padding: 3px;
+    position: absolute;
+    right: -2px;
+    text-align: right;
+    top: -2px;
+    width: 40px;
+	color:#000 !important;
+}
+.LiveMarket .OddsTabL, .LiveMarket .OddsTabR {
+    background: none repeat scroll 0 0 #F4E2DE;
+    border-color: #FFFFFF #D59080 #D59080 #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+}
+.LiveMarket .OddsTabL:hover, .LiveMarket .OddsTabR:hover, .LiveMarket .OddsSel, .LiveMarket .OddsSel .OddsM {
+    background: none repeat scroll 0 0 #F1A0A0;
+}
+.NonLiveMarket .OddsTabL, .NonLiveMarket .OddsTabR {
+    background: none repeat scroll 0 0 #EBF1FF;
+    border-color: #FFFFFF #A7BDEF #A7BDEF #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+}
+.NonLiveMarket .OddsTabL:hover, .NonLiveMarket .OddsTabR:hover, .NonLiveMarket .OddsSel, .NonLiveMarket .OddsSel .OddsM {
+    background: none repeat scroll 0 0 #28438E;
+}
+a.OddsSel .OddsM, a:hover .OddsM {
+    color: #FFFFFF;
+}
+.LiveMarket .OddsM {
+    color: #AA5544;
+}
+.NonLiveMarket .OddsM {
+    color: #4466AA;
+}
+.OddsDisabled a.OddsTabL, .OddsDisabled a.OddsTabR {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #FFFFFF #CCCCCC #CCCCCC #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+    cursor: text;
+}
+.OddsDisabled a.OddsTabL:hover, .OddsDisabled a.OddsTabR:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #FFFFFF #CCCCCC #CCCCCC #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #888888;
+}
+.Onex2 .OddsTabR, .Hdp .OddsTabR, .OUOE .OddsTabR, .DC .OddsTabR, .TG .OddsTabR, .ML .OddsTabR {
+    margin-right: 3px;
+}
+.Event .Onex2 .OddsTabR, .Event .Hdp .OddsTabR, .Event .OUOE .OddsTabR, .Event .DC .OddsTabR, .Event .TG .OddsTabR, .Event .ML .OddsTabR {
+    margin-right: 0;
+}
+.Onex2 .OddsTabL, .Onex2 .OddsTabR {
+    width: 100%;
+}
+.Onex2 td.Draw .OddsTabL {
+    width: 100%;
+}
+.OddsL {
+    overflow: hidden;
+    padding: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 140px;
+}
+.Event .Onex2 .OddsTabL, .Event .Onex2 .OddsTabR {
+    width: 241px;
+}
+.Event .Onex2 .OddsTabL .OddsL, .Event .Onex2 .OddsTabR .OddsL {
+    width: 200px;
+}
+.Event .Onex2 .Draw .OddsL {
+    margin-right: 5px;
+    width: 40px;
+}
+.Draw .OddsL {
+    margin-right: 5px;
+    width: 80px;
+}
+.Hdp .OddsTabL, .Hdp .OddsTabR {
+    width: 100%;
+}
+.Hdp .OddsL {
+    width: 150px;
+}
+.Event .Hdp .OddsL {
+    width: 210px;
+}
+.Event .Hdp .OddsTabL, .Event .Hdp .OddsTabR {
+    width: 286px;
+}
+.Odds3Cols td {
+    width: 33.3%;
+}
+.Odds3Cols .OddsL {
+    width: 145px;
+}
+.MarketT th {
+    padding-left: 2px !important;
+}
+.MarketT th div.Icons {
+    margin-top: 4px;
+}
+th .DateTimeDiv {
+    float: left;
+}
+th .DateTimeTxt {
+    font: 100 10px/10px Tahoma,sans-serif;
+}
+th .IconFav, th .IconFavSel {
+    margin-top: 0;
+}
+.OUOE td {
+    width: 270px;
+}
+.OUOE td.Icons {
+    width: 38px;
+}
+.Event .OUOE td {
+    width: 50%;
+}
+.TG .OddsL {
+    width: 120px;
+}
+.Event .TG td {
+    width: 25%;
+}
+.DC .OddsL {
+    white-space: normal;
+    width: 110px;
+}
+.DC .Draw {
+    width: auto;
+}
+.Event .DC td {
+    width: 33.3%;
+}
+.Event .DC .OddsL {
+    width: 145px;
+}
+.OR .OddsL {
+    width: 460px;
+}
+.OR .OddsTabL, .OR .OddsTabR {
+    margin-right: 0;
+}
+.OR .DateTime {
+    vertical-align: middle;
+}
+.Event .OR .OddsL {
+    width: 520px !important;
+}
+.ML .OddsTabL, .ML .OddsTabR {
+    width: 231px;
+}
+.ML .OddsL {
+    width: 185px;
+}
+.Event .ML .OddsTabL, .Event .ML .OddsTabR {
+    width: 286px;
+}
+.Event .ML .OddsL {
+    width: 240px;
+}
+.Event .SpecialsHdp .OddsL {
+    width: 190px;
+}
+.Event .SpecialsHdp .OddsTabL, .Event .SpecialsHdp .OddsTabR {
+    width: 257px;
+}
+.Event .SpecialsOUOE .OddsTabL, .Event .SpecialsOUOE .OddsTabR {
+    width: 286px;
+}
+.Event .SpecialsOnex2 .OddsTabL, .Event .SpecialsOnex2 .OddsTabR {
+    width: 209px;
+}
+.Event .SpecialsOnex2 .OddsTabL .OddsL, .Event .SpecialsOnex2 .OddsTabR .OddsL {
+    width: 140px;
+}
+.Event .SpecialsOnex2 .Draw .OddsL {
+    width: 60px;
+}
+.Event .SpecialsOnex2 .Draw .OddsTabL {
+    width: 100px;
+}
+.Event .SpecialsML .OddsTabL, .Event .SpecialsML .OddsTabR {
+    width: 257px;
+}
+.Event .SpecialsML .OddsL {
+    width: 190px;
+}
+a.PriceDown .OddsR, a.PriceDown .OddsR:hover {
+    background: url("../images/sbobet_fetcher/odds-change-bg.gif?130312") no-repeat scroll right bottom rgba(0, 0, 0, 0) !important;
+}
+a.PriceUp .OddsR, a.PriceUp .OddsR:hover {
+    background: url("../images/sbobet_fetcher/odds-change-bg.gif?130312") no-repeat scroll right top rgba(0, 0, 0, 0) !important;
+}
+.Live a.PriceDown .OddsR, .live .OddsSel a.PriceDown .OddsR:hover {
+    background: url("../images/sbobet_fetcher/odds-change-bg.gif?130312") no-repeat scroll right bottom rgba(0, 0, 0, 0) !important;
+}
+.Live a.PriceUp .OddsR, .live a.PriceUp .OddsR:hover {
+    background: url("../images/sbobet_fetcher/odds-change-bg.gif?130312") no-repeat scroll right top rgba(0, 0, 0, 0) !important;
+}
+a.PriceUp .OddsM, a.PriceDown .OddsM {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.Onex2 .RC1 .OddsL {
+    width: 135px;
+}
+.Onex2 .RC1 .RC {
+    left: 137px;
+}
+.Onex2 .RC2 .OddsL {
+    width: 127px;
+}
+.Onex2 .RC2 .RC {
+    left: 128px;
+}
+.Onex2 .RC3 .OddsL {
+    width: 118px;
+}
+.Onex2 .RC3 .RC {
+    left: 119px;
+}
+.Onex2 .RC4 .OddsL {
+    width: 109px;
+}
+.Onex2 .RC4 .RC {
+    left: 110px;
+}
+.Onex2 .RC5 .OddsL {
+    width: 100px;
+}
+.Onex2 .RC5 .RC {
+    left: 101px;
+}
+.Onex2 .RC6 .OddsL {
+    width: 122px;
+}
+.Onex2 .RC6 .RC {
+    left: 128px;
+}
+.Onex2 .RC7 .OddsL {
+    width: 122px;
+}
+.Onex2 .RC7 .RC {
+    left: 128px;
+}
+.Onex2 .RC8 .OddsL {
+    width: 122px;
+}
+.Onex2 .RC8 .RC {
+    left: 128px;
+}
+.Onex2 .RC9 .OddsL {
+    width: 122px;
+}
+.Onex2 .RC9 .RC {
+    left: 128px;
+}
+.Onex2 .RC10 .OddsL {
+    width: 120px;
+}
+.Onex2 .RC10 .RC {
+    left: 124px;
+}
+.Hdp .RC1 .OddsL {
+    width: 135px;
+}
+.Hdp .RC1 .RC {
+    left: 142px;
+}
+.Hdp .RC2 .OddsL {
+    width: 126px;
+}
+.Hdp .RC2 .RC {
+    left: 133px;
+}
+.Hdp .RC3 .OddsL {
+    width: 117px;
+}
+.Hdp .RC3 .RC {
+    left: 124px;
+}
+.Hdp .RC4 .OddsL {
+    width: 108px;
+}
+.Hdp .RC4 .RC {
+    left: 115px;
+}
+.Hdp .RC5 .OddsL {
+    width: 99px;
+}
+.Hdp .RC5 .RC {
+    left: 106px;
+}
+.Hdp .RC6 .OddsL {
+    width: 123px;
+}
+.Hdp .RC6 .RC {
+    left: 130px;
+}
+.Hdp .RC7 .OddsL {
+    width: 123px;
+}
+.Hdp .RC7 .RC {
+    left: 130px;
+}
+.Hdp .RC8 .OddsL {
+    width: 123px;
+}
+.Hdp .RC8 .RC {
+    left: 130px;
+}
+.Hdp .RC9 .OddsL {
+    width: 123px;
+}
+.Hdp .RC9 .RC {
+    left: 130px;
+}
+.Hdp .RC10 .OddsL {
+    width: 119px;
+}
+.Hdp .RC10 .RC {
+    left: 126px;
+}
+.ML .RC1 .OddsL {
+    width: 133px;
+}
+.ML .RC1 .RC {
+    left: 143px;
+}
+.ML .RC2 .OddsL {
+    width: 125px;
+}
+.ML .RC2 .RC {
+    left: 134px;
+}
+.ML .RC3 .OddsL {
+    width: 116px;
+}
+.ML .RC3 .RC {
+    left: 125px;
+}
+.ML .RC4 .OddsL {
+    width: 107px;
+}
+.ML .RC4 .RC {
+    left: 116px;
+}
+.ML .RC5 .OddsL {
+    width: 98px;
+}
+.ML .RC5 .RC {
+    left: 106px;
+}
+.ML .RC6 .OddsL {
+    width: 118px;
+}
+.ML .RC6 .RC {
+    left: 128px;
+}
+.ML .RC7 .OddsL {
+    width: 118px;
+}
+.ML .RC7 .RC {
+    left: 128px;
+}
+.ML .RC8 .OddsL {
+    width: 118px;
+}
+.ML .RC8 .RC {
+    left: 128px;
+}
+.ML .RC9 .OddsL {
+    width: 118px;
+}
+.ML .RC9 .RC {
+    left: 128px;
+}
+.ML .RC10 .OddsL {
+    width: 115px;
+}
+.ML .RC10 .RC {
+    left: 124px;
+}
+.Event .SpecialsOnex2 .RC1 .OddsL {
+    width: 155px;
+}
+.Event .SpecialsOnex2 .RC1 .RC {
+    left: 160px;
+}
+.Event .SpecialsOnex2 .RC2 .OddsL {
+    width: 150px;
+}
+.Event .SpecialsOnex2 .RC2 .RC {
+    left: 155px;
+}
+.Event .SpecialsOnex2 .RC3 .OddsL {
+    width: 145px;
+}
+.Event .SpecialsOnex2 .RC3 .RC {
+    left: 145px;
+}
+.Event .SpecialsOnex2 .RC4 .OddsL {
+    width: 140px;
+}
+.Event .SpecialsOnex2 .RC4 .RC {
+    left: 140px;
+}
+.Event .SpecialsOnex2 .RC5 .OddsL {
+    width: 135px;
+}
+.Event .SpecialsOnex2 .RC5 .RC {
+    left: 135px;
+}
+.Event .SpecialsOnex2 .RC6 .OddsL {
+    width: 150px;
+}
+.Event .SpecialsOnex2 .RC6 .RC {
+    left: 155px;
+}
+.Event .SpecialsOnex2 .RC7 .OddsL {
+    width: 150px;
+}
+.Event .SpecialsOnex2 .RC7 .RC {
+    left: 155px;
+}
+.Event .SpecialsOnex2 .RC8 .OddsL {
+    width: 150px;
+}
+.Event .SpecialsOnex2 .RC8 .RC {
+    left: 155px;
+}
+.Event .SpecialsOnex2 .RC9 .OddsL {
+    width: 150px;
+}
+.Event .SpecialsOnex2 .RC9 .RC {
+    left: 155px;
+}
+.Event .SpecialsOnex2 .RC10 .OddsL {
+    width: 148px;
+}
+.Event .SpecialsOnex2 .RC10 .RC {
+    left: 153px;
+}
+.Event .SpecialsHdp .RC1 .OddsL {
+    width: 170px;
+}
+.Event .SpecialsHdp .RC1 .RC {
+    left: 180px;
+}
+.Event .SpecialsHdp .RC2 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsHdp .RC2 .RC {
+    left: 174px;
+}
+.Event .SpecialsHdp .RC3 .OddsL {
+    width: 156px;
+}
+.Event .SpecialsHdp .RC3 .RC {
+    left: 160px;
+}
+.Event .SpecialsHdp .RC4 .OddsL {
+    width: 145px;
+}
+.Event .SpecialsHdp .RC4 .RC {
+    left: 151px;
+}
+.Event .SpecialsHdp .RC5 .OddsL {
+    width: 136px;
+}
+.Event .SpecialsHdp .RC5 .RC {
+    left: 142px;
+}
+.Event .SpecialsHdp .RC6 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsHdp .RC6 .RC {
+    left: 174px;
+}
+.Event .SpecialsHdp .RC7 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsHdp .RC7 .RC {
+    left: 174px;
+}
+.Event .SpecialsHdp .RC8 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsHdp .RC8 .RC {
+    left: 174px;
+}
+.Event .SpecialsHdp .RC9 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsHdp .RC9 .RC {
+    left: 174px;
+}
+.Event .SpecialsHdp .RC10 .OddsL {
+    width: 162px;
+}
+.Event .SpecialsHdp .RC10 .RC {
+    left: 171px;
+}
+.Event .SpecialsML .RC1 .OddsL {
+    width: 170px;
+}
+.Event .SpecialsML .RC1 .RC {
+    left: 180px;
+}
+.Event .SpecialsML .RC2 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsML .RC2 .RC {
+    left: 174px;
+}
+.Event .SpecialsML .RC3 .OddsL {
+    width: 156px;
+}
+.Event .SpecialsML .RC3 .RC {
+    left: 160px;
+}
+.Event .SpecialsML .RC4 .OddsL {
+    width: 145px;
+}
+.Event .SpecialsML .RC4 .RC {
+    left: 151px;
+}
+.Event .SpecialsML .RC5 .OddsL {
+    width: 136px;
+}
+.Event .SpecialsML .RC5 .RC {
+    left: 142px;
+}
+.Event .SpecialsML .RC6 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsML .RC6 .RC {
+    left: 174px;
+}
+.Event .SpecialsML .RC7 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsML .RC7 .RC {
+    left: 174px;
+}
+.Event .SpecialsML .RC8 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsML .RC8 .RC {
+    left: 174px;
+}
+.Event .SpecialsML .RC9 .OddsL {
+    width: 165px;
+}
+.Event .SpecialsML .RC9 .RC {
+    left: 174px;
+}
+.Event .SpecialsML .RC10 .OddsL {
+    width: 162px;
+}
+.Event .SpecialsML .RC10 .RC {
+    left: 171px;
+}
+.FF .OddsL {
+    white-space: normal;
+}
+.IconBar {
+    padding-right: 10px;
+}
+.IconBar div {
+    float: left;
+    height: 22px;
+    margin-left: 1px;
+    width: 22px;
+}
+.IconBSoundOff {
+    background-position: 0 -23px;
+}
+.IconBStats {
+    background-position: -23px 0;
+}
+.IconBStatsOff {
+    background-position: -23px -23px;
+}
+.IconBTV {
+    background-position: -46px 0;
+}
+.IconBTVOff {
+    background-position: -46px -23px;
+}
+.IconBLC {
+    background-position: -69px 0;
+}
+.IconBLCOff {
+    background-position: -69px -23px;
+}
+.IconBTVCOn {
+    background-position: -138px 0;
+}
+.IconBTVCOff {
+    background-position: -138px -23px;
+}
+.IconBScoutOn {
+    background-position: -92px 0;
+}
+.IconBScoutOff {
+    background-position: -92px -23px;
+}
+div.IconDropDown {
+    background-position: 0 -495px;
+    position: relative;
+    width: 36px;
+    z-index: 99;
+}
+.IconDropDown ul {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border: 1px solid #C5C5C5;
+    position: absolute;
+    top: 20px;
+    z-index: 1000;
+}
+.IconDropDown a {
+    color: #333333;
+    display: block;
+    padding: 2px 10px 2px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.IconDropDown span {
+    display: block;
+    height: 13px;
+    margin: 5px 0 0 3px;
+    width: 19px;
+}
+span.Sort {
+    background-position: -38px -74px;
+}
+span.Price4 {
+    background-position: -58px -503px;
+}
+span.Price1 {
+    background-position: -58px -551px;
+}
+span.Price2 {
+    background-position: -58px -564px;
+}
+span.Sort1 {
+    background-position: -58px -634px;
+}
+span.Sort2 {
+    background-position: -58px -583px;
+}
+a.Price4:hover, a.Price1:hover, a.Price2:hover, a.Sort1:hover, a.Sort2:hover {
+    background-color: #364D72;
+    background-position: -56px -531px;
+    color: #FFFFFF;
+}
+a.Price4 {
+    background-position: -56px -515px;
+}
+a.Price1 {
+    background-position: -56px -547px;
+}
+a.Price2 {
+    background-position: -56px -560px;
+}
+a.Price1:hover {
+    background-position: -56px -801px;
+}
+a.Price2:hover {
+    background-position: -56px -817px;
+}
+a.Sort1 {
+    background-position: -56px -648px;
+}
+a.Sort1:hover {
+    background-position: -56px -664px;
+}
+a.Sort2 {
+    background-position: -56px -597px;
+}
+a.Sort2:hover {
+    background-position: -56px -613px;
+}
+div.OddsType {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 22px;
+    position: relative;
+    width: auto;
+}
+.OddsType select {
+    height: 22px;
+    line-height: 22px;
+}
+.BetSlip, .BetMod .Live, .BetMod .Invalid, .PlayAll, .Total, .RemainBet, .BetterOdds {
+    background: url("../images/sbobet_fetcher/betslip.png?130826") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.BetMod .Bd {
+    padding: 22px 2px 0;
+    position: relative;
+    width: 216px;
+}
+.BetMod .Ft {
+    background-color: #BBBBBB;
+    background-position: -775px -196px;
+    height: 2px;
+}
+.SelAll {
+    background: none repeat scroll 0 0 #ECECED;
+    height: 22px;
+    left: 3px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    width: 215px;
+}
+.DelAll {
+    line-height: 20px;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+    top: 2px;
+}
+.DelAll .IconDelRect {
+    float: right;
+    margin: 3px 2px 3px 5px;
+}
+.BetSlip {
+    background-position: 0 -108px;
+    clear: both;
+    line-height: 16px;
+    padding: 5px;
+}
+.RemainBet {
+    background-position: -439px 0;
+    clear: both;
+    line-height: 16px;
+    padding: 7px 5px 3px;
+}
+.RemainBet span {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll -168px -722px rgba(0, 0, 0, 0);
+    color: #743101;
+    font-weight: 700;
+    padding-left: 17px;
+}
+.BetMod .Live {
+    background-position: -440px -107px;
+}
+.BetMod .Alert {
+    background-position: -660px -107px;
+}
+.BetMod .Invalid {
+    background-position: -220px -107px;
+}
+.IconInfo, .IconDel, .IconDelRect {
+    background-position: -634px -392px;
+    height: 12px;
+    margin-top: 5px;
+    width: 12px;
+}
+.IconDel {
+    background-position: -45px -118px;
+}
+.IconDelRect {
+    background-position: -30px -119px;
+}
+.IconInfo {
+    cursor: help;
+    margin-right: 5px;
+}
+.IconAlert {
+    background-position: -656px -389px;
+    cursor: help;
+    display: inline-block;
+    height: 15px;
+    width: 17px;
+}
+.BetSlip .Event {
+    color: #2B4591;
+    font-weight: 700;
+    margin: 0 0 5px -5px;
+}
+.BetMod .Live .Event {
+    color: #990000;
+}
+.BetSlip .Event input {
+    float: left;
+}
+.BetSlip .Event label {
+    display: block;
+    margin: 0 0 0 20px;
+    padding-top: 3px;
+}
+.BetMod .Invalid, .BetMod .Invalid .Event, .BetMod .Invalid a, .BetMod .Invalid a:hover {
+    color: #888888;
+}
+.MinMax {
+    color: #777777;
+    font-size: 10px;
+}
+.BetInput {
+    height: 33px;
+    margin: 3px 0 0;
+    position: relative;
+    vertical-align: top;
+}
+.StakeTF-en, .StakeTF-zh-cn, .StakeTF-id-id, .StakeTF-vi-vn, .StakeTF-th-th, .StakeTF-ru-ru, .StakeTF-ja-jp, .StakeTF-de-de, .StakeTF-es-es, .StakeTF-my-mm, .StakeTF-ko-kr, .ToWinTF-en, .ToWinTF-zh-cn, .ToWinTF-id-id, .ToWinTF-vi-vn, .ToWinTF-th-th, .ToWinTF-ru-ru, .ToWinTF-ja-jp, .ToWinTF-de-de, .ToWinTF-es-es, .ToWinTF-my-mm, .ToWinTF-ko-kr {
+    display: inline-block;
+    margin-right: 1px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+.StakeTF-id-id {
+    line-height: 10px;
+    margin-top: 0;
+    width: 40px;
+}
+.StakeTF-vi-vn {
+    line-height: 10px;
+    margin-top: 0;
+    width: 30px;
+}
+.StakeTF-th-th {
+    width: 50px;
+}
+.StakeTF-ko-kr {
+    width: 30px;
+}
+.ToWinTF-vi-vn {
+    line-height: 10px;
+    margin-top: 0;
+    width: 60px;
+}
+.ToWinTF-id-id {
+    line-height: 10px;
+    margin-top: 0;
+    width: 45px;
+}
+.ToWinTF-ru-ru {
+    line-height: 10px;
+    margin-top: 0;
+    width: 55px;
+}
+.ToWinTF-th-th {
+    width: 40px;
+}
+.ToWinTF-ko-kr {
+    width: 55px;
+}
+.StakeInput-en, .StakeInput-zh-cn, .StakeInput-id-id, .StakeInput-vi-vn, .StakeInput-th-th, .StakeInput-ru-ru, .StakeInput-ja-jp, .StakeInput-de-de, .StakeInput-es-es, .StakeInput-my-mm, .StakeInput-ko-kr {
+    display: inline-block;
+    margin-right: 3px;
+    vertical-align: top;
+}
+.StakeInput-en input, .StakeInput-zh-cn input, .StakeInput-id-id input, .StakeInput-vi-vn input, .StakeInput-th-th input, .StakeInput-ru-ru input, .StakeInput-ja-jp input, .StakeInput-de-de input, .StakeInput-es-es input, .StakeInput-my-mm input, .StakeInput-ko-kr input {
+    display: block;
+}
+.StakeInput-th-th input {
+    width: 42px;
+}
+.StakeInput-en a, .StakeInput-zh-cn a, .StakeInput-id-id a, .StakeInput-vi-vn a, .StakeInput-th-th a, .StakeInput-ru-ru a, .StakeInput-ja-jp a, .StakeInput-de-de a, .StakeInput-es-es a, .StakeInput-my-mm a, .StakeInput-ko-kr a {
+    color: #333333;
+    display: block;
+    font: 700 10px/12px Arial;
+    position: absolute;
+}
+.StakeInput-en a:hover, .StakeInput-zh-cn a:hover, .StakeInput-id-id a:hover, .StakeInput-vi-vn a:hover, .StakeInput-th-th a:hover, .StakeInput-ru-ru a:hover, .StakeInput-ja-jp a:hover, .StakeInput-de-de a:hover, .StakeInput-es-es a:hover, .StakeInput-my-mm a:hover, .StakeInput-ko-kr a:hover {
+    color: #990000;
+}
+.StakeInput-vi-vn a {
+    margin-top: 2px;
+}
+.ToWinTFInput {
+    display: inline-block;
+    vertical-align: top;
+}
+.BetTF {
+    width: 46px;
+}
+.OldOdds {
+    background-position: right -168px;
+    padding: 0 6px 0 0;
+}
+.NewOdds {
+    background: url("../images/sbobet_fetcher/betslip-oddschange.gif?120313") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0 5px;
+}
+.MP table {
+    width: 100%;
+}
+.MP .BetInfo {
+    border-bottom: 1px dotted #627FBF;
+    padding: 0 0 5px;
+}
+.BetSlip td.Icons {
+    padding: 0;
+    width: 30px;
+}
+.MP .BetInput {
+    height: 65px;
+}
+.MP .BetInput .StakeTF, .MP .BetInput .ToWinTF {
+    top: 32px;
+}
+.PlayAll {
+    clear: both;
+    color: #FFFFFF;
+    font-weight: 700;
+    height: 23px;
+    padding: 6px 8px 0 0;
+    text-align: right;
+}
+.total-wrap {
+    background-color: #C9C9C9;
+    padding-bottom: 6px;
+    position: relative;
+}
+.Total {
+    background-position: 0 -29px;
+    height: 73px;
+    left: 0;
+    line-height: 20px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.total-table {
+    height: 73px;
+    margin-left: 7px;
+    position: relative;
+    width: 200px;
+}
+.total-table td {
+    padding-left: 5px;
+}
+.total-table th, .total-table td {
+    height: 20px;
+    line-height: 15px;
+    text-align: right;
+}
+.Err {
+    background: none repeat scroll 0 0 #FFECEC;
+    border: 1px solid #FFCCCC;
+    clear: both;
+    color: #FF0000;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.BetSlip .Err {
+    margin: 5px 0 0;
+}
+.NoBet {
+    background: none repeat scroll 0 0 #ECECED;
+    margin-top: -22px;
+    padding: 10px 5px 35px;
+}
+.NoBet p {
+    margin-bottom: 8px;
+}
+.NoBet .OrangeBtn {
+}
+.NoBetMsg {
+    margin-top: 5px;
+    text-align: center;
+}
+.NoBetMsg b {
+    background-color: #FFFFFF !important;
+    border: 1px solid #DDDDDD;
+    display: block;
+    padding: 5px 0;
+    width: 194px;
+}
+.RefNo {
+    color: #2B4591;
+    font-weight: 700;
+    margin: 0 0 5px;
+    text-align: center;
+}
+.Receipt .BetSlip, .ListMini .BetSlip {
+    padding: 8px;
+}
+.ListMini {
+    padding-top: 0 !important;
+}
+.ListMini .NoBet {
+    margin-top: 0;
+    padding: 10px;
+}
+.ListMini table {
+    width: 100%;
+}
+.ListMini .BetSlip {
+    font: 100 9px/12px Tahoma,sans-serif;
+}
+.ListMini td {
+    vertical-align: top;
+}
+.BetSlip .Invalid {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+tr.BetInfo td {
+    padding: 0 0 5px;
+}
+.ListMini .Total td {
+    padding-right: 10px;
+}
+.ListMiniTitle {
+    background: none repeat scroll 0 0 #ECECED;
+    border-top: 1px solid #DDDDDD;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+.AdMod {
+    font-size: 0;
+    margin-top: 5px;
+}
+.AdMod .Hd {
+    background-position: -775px -210px;
+    height: 6px;
+}
+.AdMod .Bd {
+    background-color: #ECECED;
+    padding: 5px 5px 2px;
+    text-align: center;
+}
+.AdMod img {
+    border: 1px solid #FFFFFF;
+    height: 82px;
+    margin-bottom: 3px;
+    width: 202px;
+}
+.AjaxLoader {
+    background: url("../images/sbobet_fetcher/spinner.gif?120313") no-repeat scroll center center #FFFFFF;
+    display: none;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1001;
+}
+.Hide {
+    display: none;
+    padding: 5px;
+}
+.VSpace {
+    padding: 5px;
+}
+.Vhide {
+    visibility: hidden;
+}
+.None {
+    display: none;
+}
+.W150 {
+    width: 150px;
+}
+.W156 {
+    width: 156px;
+}
+.RejectBet {
+    background: url("../images/sbobet_fetcher/betslip.png?130826") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.RejectBet {
+    background-color: #FCE1BD;
+    background-position: -439px 0;
+    clear: both;
+    float: left;
+    line-height: 16px;
+    padding: 7px 5px 3px;
+    width: 206px;
+}
+.RejectBetIcon {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll -168px -722px rgba(0, 0, 0, 0);
+    float: left;
+    padding-left: 17px;
+    width: 180px;
+}
+.RejectBetIcon span {
+    color: #743101;
+    font-weight: 700;
+}
+.RejectBetClose {
+    background: url("../images/sbobet_fetcher/icons.png?130924") no-repeat scroll -172px -695px rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: right;
+    height: 10px;
+    width: 7px;
+}
+.ViewDetailsBtn {
+    background: url("../images/sbobet_fetcher/buttons.png?121217") no-repeat scroll left -309px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    cursor: pointer;
+    font: 700 11px/18px Arial,sans-serif;
+    height: 19px;
+    margin: 4px 0;
+    text-align: center;
+    width: 132px;
+}
+.ViewDetailsBtn a:hover {
+    color: #660000;
+}
+.TicketCSExcept {
+    font-size: 10px;
+    line-height: 12px;
+}
+.BtnCheck {
+    cursor: pointer;
+    float: left !important;
+}
+.BtnPlay {
+    cursor: pointer;
+}
+.BetterOdds {
+    background-position: -439px -77px;
+    height: 21px;
+    padding: 5px 0 0;
+}
+.BetterOdds input {
+    float: left;
+}
+.BetterOdds label {
+    display: block;
+    font: 100 11px/20px Arial,sans-serif;
+}
+.RCBottomTabFlash {
+    margin-top: 25px;
+}
+.RCBottomTabNoFlash {
+    background: url("../images/sbobet_fetcher/rc-banner-bottom.en.png?20130228") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 382px;
+    margin-top: 25px;
+    width: 921px;
+}
+.RCBottomTabNoFlashZh {
+    background: url("../images/sbobet_fetcher/rc-banner-bottom.zh-cn.png?20130228") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 382px;
+    margin-top: 25px;
+    width: 921px;
+}
+.games-count-wrap {
+    position: relative;
+}
+.games-count {
+    height: 20px;
+    position: absolute;
+    right: -12px;
+    top: -42px;
+}
+.games-count-left, .games-count-body, .games-count-right {
+    float: left;
+    height: 17px;
+}
+.games-count-left {
+    background-position: -4px -1135px !important;
+    width: 4px;
+}
+.games-count-body {
+    background-position: -46px -1135px !important;
+    color: #FFFFFF;
+    font: 700 9px/15px tahoma;
+    padding: 0 1px;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+.games-count-right {
+    background-position: -63px -1135px !important;
+    width: 4px;
+}
+.games-count-bottom-wrap {
+    background-image: none !important;
+    bottom: -1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.games-count-bottom {
+    background-position: -4px -1155px !important;
+    height: 7px;
+    margin: 0 auto;
+    width: 8px;
+}
+.weight-normal {
+    font-weight: normal;
+}
+.DisplayOptions {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+.TrRed {
+    background-color: #FFDEDE;
+    color: #CC0000;
+}
+.Black {
+    color: #000000;
+}
+.live-odds-inj-time-count {
+    color: #666666;
+    display: block;
+    font-size: 10px;
+}
+.sports-inj-time {
+    color: #FF0000;
+    font-size: 9px;
+    margin-left: 3px;
+}
+.sports-inj-time-count {
+    color: #666666;
+    font-size: 9px;
+}
+.live-inj-time-count-dark {
+    color: #575757;
+    font-size: 11px;
+}
+td.Icons{
+    display: none;
+}
+/* custom */
+#sbobet-fetcher{
+    font-size: 11px;
+    font-family: Arial;
+}
+
+#sbobet-fetcher{
+    /*height: 715px;*/
+	min-height:1px;
+    overflow: auto;
+}
+#sbobet-fetcher .DateTime *,
+#sbobet-fetcher a *{
+    font-size: 11px;
+}
+#sbobet-fetcher .DateTimeDiv{
+    padding-left: 5px;
+}
+#sbobet-fetcher a{
+   
+}
+#sbobet-fetcher .Hd{
+    width: auto;
+    background-repeat: repeat-x;
+    background-position: 0 -549px;
+}
+#sbobet-fetcher td, 
+#sbobet-fetcher tr{
+    padding: 0px;
+    margin: 0px;
+}
+#sbobet-fetcher td a{
+    float:right;
+    
+}
+#sbobet-fetcher .DateTimeTxt{
+    font-size: 10px;
+    top: 0px;
+}
+#sbobet-fetcher .FrontIconS a{
+    width: 10px;
+}
+
+
+section.odds {
+    background-color: #28282e;
+    padding: 60px 0;
+    text-align: center;
+}
+section.odds .odds-table table {
+  width: 100%;
+}
+
+.odds-title {
+    background-color: #3366cc;
+    color: #fff;
+    font-size: 30px;
+    line-height: 52px;
+    margin: auto;
+    width: 100%; 
+    overflow: hidden;
+    text-align: center;
+    font-weight: normal;
+}
+
+section.odds {
+    background-color: #28282e;
+    padding: 40px 0px 13px 0px;
+    text-align: center;
+}
+td.Fav {
+    border-bottom: 1px solid #a7bdef;
+    width: 1px;
+}
+.IconFav, .IconFavSel {
+    background-position: -609px -385px;
+    float: left;
+    height: 18px;
+    width: 1px;
+}

@@ -1,0 +1,313 @@
+body {
+  font-size: 100%;
+  font-family: 'Prompt', sans-serif;
+  color: #444444;
+  background-color:#f8f8fa;
+}
+.container-fluid {padding:0;}
+.row {margin:0px}
+
+.f-prompt {font-family: 'Prompt', sans-serif;}
+.f-oswald {font-family: 'Oswald', sans-serif;}
+
+a {
+  color: #555555;
+}
+
+a:hover {
+  text-decoration:none;
+  color: #000000;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {background-color:	#e5e6eb; padding:10px 0 10px 10px;
+  box-shadow: 0px 0px 10px rgba(255,255,255,0.1);
+}
+
+
+p, span {
+  font-size: 0.8em;
+  color: #
+}
+
+.fz-05 {
+  font-size: 0.5em;
+}
+
+.fz-10 {
+  font-size: 1em;
+}
+
+.fz-12 {
+  font-size: 1.2em;
+}
+
+.fz-15 {
+  font-size: 1.5em;
+}
+
+.fz-20 {font-size: 2em;}
+.fz-30 {font-size: 3em;}
+
+.navbar {}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1em;
+  font-family: 'Prompt', sans-serif;
+  position: relative;
+}
+
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+  color: #fff;
+}
+
+.mb-3, .my-3 {border-bottom:2px solid #444444;}
+
+.navbar-dark .navbar-toggler {
+  border: 1px solid #fff
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+  padding-top: 5px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: none;
+}
+
+
+.nav-link, .navbar-brand, .dropdown-item {
+  font-family: 'Prompt', sans-serif;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.dropdown-menu {border-radius: 0px}
+
+.navbar-brand {
+  font-style: italic;
+  font-weight:bolder;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card {
+  border-radius: 0px;
+  border:none;
+}
+
+.fc-white {color:#fff;}
+.fc-black {
+  color: #444444;
+}
+
+.fc-yellow {
+  color: #ffd700;
+}
+
+.fc-red {
+  color: #f20505;
+}
+
+.fc-green {
+  color: #7ddc1f;
+}
+
+.fc-bluesky {
+  color: #0073e5
+}
+
+.fc-grey {color:#c0c2ce;}
+
+.fc-purple {color:#4d1b7b;}
+
+.bg-purple {
+  background-color: #4d1b7b
+}
+
+.bg-black {background-color: #000;color:#fff;}
+
+.bg-white {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.01);
+}
+
+.bg-bluesky {
+  background-color: #0073e5;
+}
+
+.bg-lightblue {background-color:#7fccff;}
+
+.bg-red {
+  background-color: #f20505;
+}
+
+.bg-grey {
+  background-color: #c0c2ce;
+}
+
+.bg-lightgrey {background-color:#ebebeb;}
+
+
+
+.bghover {
+  transition-property: all;
+  transition-delay: 0.3s;
+  transition-duration: 0.1s;
+  cursor:pointer;
+}
+
+.bghover:hover {
+  background-color: #fff;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.bg-yellow {
+  background-color: #f9d70b;
+}
+
+.news-group {
+  width: 100%;
+  margin-top:10px;
+  padding:10px 0 10px 10px;
+}
+
+.news-group:hover {
+  background-color: #000000;
+  box-shadow: 0px 0px 10px rgba(0.0.0.0.1);
+  color:#fff;
+}
+
+.titlenews {
+  font-size: .8em;
+}
+
+.leaugename, .leaugetime {
+  font-size: 0.5em;
+}
+
+.leaugetime {
+  color: #959595;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  padding: 10px 0 0px 0;
+}
+
+.allborder {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.divranking ,.leagueranking {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.posrank , .ptsrank, .numrank {
+  width: 10%;
+  float: left;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.numrank ,.ptsrank {
+  width: 20%;
+}
+
+.userrank {
+  width: 50%;
+  float: left;
+  font-size: 0.8em;
+}
+
+.divchannel-casino , .divchannel-football {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.01);
+}
+.divchannel-casino:hover {color:#fff; background-color:#f20505; }
+.divchannel-football:hover {color:#fff;background-color: #0073e5;}
+
+.iconchanel {
+  width: 20px;
+  float: left;
+  text-align: center;
+  padding: 5px 2px ;
+  border-radius: 3px;
+  margin-top: 5px;
+  font-size:0.6em;
+  margin-left:5px;
+}
+
+.numchannel, .icongame {
+  width: 10%;
+  float: left;
+  text-align: center;
+  padding: 5px 0 0 3px;
+  font-size:0.8em;
+}
+.icongame {font-size: 1.2em; padding:5px;}
+.namechannel {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding: 5px 0 0 3px;
+  font-size:0.8em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show >.nav-link {background-color:#444444; color:#ffffff;}
+.nav-pills .nav-link {border-radius:0px;}
+
+.carousel-control-next, .carousel-control-prev {width:5%}
+
+.card-title {font-family: 'Oswald', sans-serif;}
+
+.page-link {color:#444444;}
+
+.divscore {width:20%;}
+.w1 , .w2 , .d ,.l1 ,.l2 {padding:5px; color:#fff; text-shadow: 0px 2px 2px #444;}
+.w1 {background-color:#00a651;}
+.w2 {background-color:#8dc63f}
+.d {background-color: #f26522;}
+.l1 {background-color: #f5989d;}
+.l2 {background-color: #ff0000;}
+
+.new{color:white;background-color:#d42027;display:inline-block;font-size:8px;padding:1px 2px 1px 2px;border-radius:2px;position:absolute;animation:blinker 1s linear infinite; right:-10px;top:-2px;}
+@keyframes blinker{50%{opacity:0}}

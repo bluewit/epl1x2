@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+#RewriteCond %{HTTP_HOST} ^epl1x2\.com$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.epl1x2\.com$
+#RewriteRule ^(.*)$ "https\:\/\/epl1x2\.net\/$1" [R=301,L]
